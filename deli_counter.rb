@@ -4,7 +4,7 @@ def line(katz_deli)
   if katz_deli.length == 0  
     puts "The line is currently empty."
   else 
-    line_message = "The line is currently:"
+    line_message = "The line is currently: "
     number_of_people = 0
     
     until number_of_people == katz_deli.length
