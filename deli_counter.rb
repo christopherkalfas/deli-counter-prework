@@ -9,7 +9,7 @@ def line(katz_deli)
     number_of_people = 0
     
     until number_of_people == katz_deli.length
-    
+    puts line_prefix 
   end 
   
 end
