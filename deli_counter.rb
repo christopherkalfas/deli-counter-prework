@@ -1,3 +1,3 @@
 def line 
-  "The line is currentlt empty."
+  puts "The line is currentlt empty."
 end 
