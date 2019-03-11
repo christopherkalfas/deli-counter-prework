@@ -8,7 +8,8 @@ def line(katz_deli)
     line_prefix = "The line is currently:"
     number_of_people = 0
     
-    until number_of_people.length
+    until number_of_people == katz_deli.length
+    
   end 
   
 end
