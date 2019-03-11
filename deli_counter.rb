@@ -8,7 +8,7 @@ def line(katz_deli)
     number_of_people = 0
     
     until number_of_people == katz_deli.length
-      line_message << "#{number_of_people + 1}. #{katz_deli[number_of_people]}"
+      line_message << "#{number_of_people + 1}.  #{katz_deli[number_of_people]}"
       number_of_people += 1 
     end
     puts line_message
